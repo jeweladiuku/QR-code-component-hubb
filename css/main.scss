@@ -2,7 +2,7 @@
 
 body {
     font-family: "Outfit";
-    background:#d6e2f0;
+    background:#000000;
     margin: 0;
 }
 
@@ -30,7 +30,7 @@ body {
         text-decoration: none;
         font-weight: bold;
         color: #1f3251;
-        font-size: 1.5em;
+        font-size: auto;
         text-align: center;
     }
     p {
@@ -41,5 +41,82 @@ body {
 
     }
 }
+
+@media only screen and (min-width:550px) {
+    .background {
+        padding: 5em 8em 5em 8em;
+        
+    }
+    .white-card {
+        background: white;
+        padding: 2em 2em;
+        height: auto;
+        border-radius: 25px;
+    }
+    .qr-code-section {
+        img {
+            border-radius: 8px;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+          }
+        .title-of-card {
+            text-decoration: none;
+            font-weight: bold;
+            color: #1f3251;
+            font-size: 13px;
+            text-align: center;
+        }
+        p {
+            text-align: center;
+            color: #a6afb9;
+            font-weight: 400;
+            font-size: 10px;
+    
+        }
+    }
+
+
+
+}
+
+@media only screen and (min-width:1250px) {
+    .background {
+        padding: 20em 33em;
+        
+    }
+    .white-card {
+        background: white;
+        padding: 2em 2em;
+        height: auto;
+        border-radius: 25px;
+    }
+    .qr-code-section {
+        img {
+            border-radius: 8px;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+          }
+        .title-of-card {
+            text-decoration: none;
+            font-weight: bold;
+            color: #1f3251;
+            font-size: 28px;
+            text-align: center;
+        }
+        p {
+            text-align: center;
+            color: #a6afb9;
+            font-weight: 400;
+            font-size: 20px;
+    
+        }
+    }
+
+}
+
 
 
